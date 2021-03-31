@@ -13,14 +13,12 @@ public class Demo5 {
 			WebDriver driver=new FirefoxDriver();
 			driver.get("http://demo.automationtesting.in/Frames.html");
 			
-//			
-//			driver.findElement(By.xpath("//section/div/div/div/div/div/div/ul/li[2]/a[@class=\"analystic\"]")).click();
-//			WebElement ele= driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div/div[1]/div/ul/li[1]/a"));
-//			driver.switchTo().frame(ele);
-//			WebElement ele1= driver.findElement(By.xpath("/html/body/section/div/div"));
+			
+//			driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div/div[1]/div/ul/li[1]/a")).click();
+//			WebElement ele1= driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div/div[2]/div[1]/iframe"));
 //			driver.switchTo().frame(ele1);
 //			driver.findElement(By.xpath("/html/body/section/div/div/div/input")).sendKeys("Geethu");
-//			
+			
 			
 			
 			driver.findElement(By.xpath("//section/div/div/div/div/div/div/ul/li[2]/a[@class=\"analystic\"]")).click();
