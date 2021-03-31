@@ -32,7 +32,7 @@ public class Demo2 {
 		
 		
 		//driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div[3]/div[2]/button")).click();//clicking on third clickme
-		driver.switchTo().alert().sendKeys("Sneha");
+		driver.switchTo().alert().sendKeys("Geethu");
 		Thread.sleep(500);//waiting for some time
 		driver.switchTo().alert().accept();
 		
